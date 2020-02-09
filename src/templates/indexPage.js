@@ -9,7 +9,7 @@ export default indexPage;
 
 export const pageQuery = graphql`
   query indexQuery {
-    markdownRemark(frontmatter: { template: { eq: "index" } }) {
+    markdownRemark(frontmatter: { template: { eq: "indexPage" } }) {
       frontmatter {
         template
       }
