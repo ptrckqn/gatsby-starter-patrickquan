@@ -32,9 +32,13 @@ const GlobalStyle = createGlobalStyle`
       line-height: 34.5px;
     }
 
-    p, i, a{
+    h3{
       font-size: 21px;
-      letter-spacing: -0.03px;
+      line-height: 30px;
+    }
+
+    p, i, a{
+      font-size: 18px;
       line-height: 1.58;
     }
 
